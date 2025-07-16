@@ -15,7 +15,10 @@ class Homepage extends StatelessWidget {
         centerTitle: true,
         title: const Text('Travel', style: TextStyle(fontWeight: FontWeight.bold),),
         actions: const [
-          Icon(Icons.notifications)
+          Padding(
+            padding: EdgeInsets.only(right: 8.0),
+            child: Icon(Icons.notifications),
+          )
         ],
         backgroundColor: Colors.limeAccent,
       ),
